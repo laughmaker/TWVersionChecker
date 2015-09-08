@@ -15,6 +15,7 @@
 		28371D831B9EC32E0012CEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28371D811B9EC32E0012CEF6 /* LaunchScreen.storyboard */; };
 		28371D8E1B9EC32E0012CEF6 /* XTVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D8D1B9EC32E0012CEF6 /* XTVersionTests.m */; };
 		28371D991B9EC32E0012CEF6 /* XTVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D981B9EC32E0012CEF6 /* XTVersionUITests.m */; };
+		28371DCE1B9EC36A0012CEF6 /* XTVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371DCD1B9EC36A0012CEF6 /* XTVersion.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28371D941B9EC32E0012CEF6 /* XTVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28371D981B9EC32E0012CEF6 /* XTVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTVersionUITests.m; sourceTree = "<group>"; };
 		28371D9A1B9EC32E0012CEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28371DCC1B9EC36A0012CEF6 /* XTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTVersion.h; sourceTree = "<group>"; };
+		28371DCD1B9EC36A0012CEF6 /* XTVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		28371D721B9EC32E0012CEF6 /* XTVersion */ = {
 			isa = PBXGroup;
 			children = (
+				28371DCB1B9EC36A0012CEF6 /* Version */,
 				28371D761B9EC32E0012CEF6 /* AppDelegate.h */,
 				28371D771B9EC32E0012CEF6 /* AppDelegate.m */,
 				28371D791B9EC32E0012CEF6 /* ViewController.h */,
@@ -139,6 +143,15 @@
 			);
 			path = XTVersionUITests;
 			sourceTree = "<group>";
+		};
+		28371DCB1B9EC36A0012CEF6 /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				28371DCC1B9EC36A0012CEF6 /* XTVersion.h */,
+				28371DCD1B9EC36A0012CEF6 /* XTVersion.m */,
+			);
+			path = Version;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28371DCE1B9EC36A0012CEF6 /* XTVersion.m in Sources */,
 				28371D7B1B9EC32E0012CEF6 /* ViewController.m in Sources */,
 				28371D781B9EC32E0012CEF6 /* AppDelegate.m in Sources */,
 				28371D751B9EC32E0012CEF6 /* main.m in Sources */,
@@ -412,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XTVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
