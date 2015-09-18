@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D6F1B9EC32E0012CEF6"
-               BuildableName = "XTVersion.app"
-               BlueprintName = "XTVersion"
-               ReferencedContainer = "container:XTVersion.xcodeproj">
+               BuildableName = "TWVersionCheckDemo.app"
+               BlueprintName = "TWVersionCheckerDemo"
+               ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D881B9EC32E0012CEF6"
-               BuildableName = "XTVersionTests.xctest"
-               BlueprintName = "XTVersionTests"
-               ReferencedContainer = "container:XTVersion.xcodeproj">
+               BuildableName = "TWVersionCheckerDemo.xctest"
+               BlueprintName = "TWVersionCheckerDemoTests"
+               ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D931B9EC32E0012CEF6"
-               BuildableName = "XTVersionUITests.xctest"
-               BlueprintName = "XTVersionUITests"
-               ReferencedContainer = "container:XTVersion.xcodeproj">
+               BuildableName = "TWVersionCheckerDemo.xctest"
+               BlueprintName = "TWVersionCheckerDemoUITests"
+               ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D6F1B9EC32E0012CEF6"
-            BuildableName = "XTVersion.app"
-            BlueprintName = "XTVersion"
-            ReferencedContainer = "container:XTVersion.xcodeproj">
+            BuildableName = "TWVersionCheckDemo.app"
+            BlueprintName = "TWVersionCheckerDemo"
+            ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D6F1B9EC32E0012CEF6"
-            BuildableName = "XTVersion.app"
-            BlueprintName = "XTVersion"
-            ReferencedContainer = "container:XTVersion.xcodeproj">
+            BuildableName = "TWVersionCheckDemo.app"
+            BlueprintName = "TWVersionCheckerDemo"
+            ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D6F1B9EC32E0012CEF6"
-            BuildableName = "XTVersion.app"
-            BlueprintName = "XTVersion"
-            ReferencedContainer = "container:XTVersion.xcodeproj">
+            BuildableName = "TWVersionCheckDemo.app"
+            BlueprintName = "TWVersionCheckerDemo"
+            ReferencedContainer = "container:TWVersionCheckerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,7 +12,7 @@
 /**
  *  版本管理类
  */
-@interface XTVersion : NSObject
+@interface TWVersionChecker : NSObject
 
 /**
  *  检查appstore是否有新版本

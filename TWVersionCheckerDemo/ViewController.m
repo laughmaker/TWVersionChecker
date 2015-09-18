@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XTVersion.h"
+#import "TWVersionChecker.h"
 
 @interface ViewController () <UIAlertViewDelegate>
 - (IBAction)checkVersion:(id)sender;
@@ -29,7 +29,7 @@
 }
 
 - (IBAction)checkVersion:(id)sender {
-    [XTVersion checkVersionForAppId:@"899155970" completionHandler:^(BOOL hasNew, NSString *updateText, NSString *updateUrl, NSString *version) {
+    [TWVersionChecker checkVersionForAppId:@"899155970" completionHandler:^(BOOL hasNew, NSString *updateText, NSString *updateUrl, NSString *version) {
         NSString *appName = [[NSBundle mainBundle] infoDictionary][@"CFBundleName"];
         NSString *title = [NSString stringWithFormat:@"%@ %@", appName, version];
         self.updateUrl = updateUrl;

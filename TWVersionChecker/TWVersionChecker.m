@@ -6,16 +6,16 @@
 //  Copyright © 2015年 LZA. All rights reserved.
 //
 
-#import "XTVersion.h"
+#import "TWVersionChecker.h"
 
 //此链接为苹果官方查询App的接口。
 #define kAPPURL     @"http://itunes.apple.com/lookup?id="
 
-@interface XTVersion ()
+@interface TWVersionChecker ()
 
 @end
 
-@implementation XTVersion
+@implementation TWVersionChecker
 
 + (void)checkVersionForAppId:(NSString *)appId completionHandler:(void (^)(BOOL hasNew, NSString *updateText, NSString *updateUrl, NSString *version))completionHandler
 {
